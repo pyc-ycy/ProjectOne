@@ -21,17 +21,18 @@ var v5, v6 int = 1, 2
 var v7, v8 = 123, "Hello"
 
 func main() {
-	fmt.Println("Hello world")
-	println(v1, v2, v3, v4, v5, v6, v7, v8)
-	variableNothing()
-	var b = true
-	fmt.Println(b)
-	var a string = "abc"
-	fmt.Println("hello world", a)
-	constVariable()
-	FuncSet.SimpleOne()
-	FuncSet.SimpleTwo()
-	FuncSet.SimpleThree()
+	//fmt.Println("Hello world")
+	//println(v1, v2, v3, v4, v5, v6, v7, v8)
+	//variableNothing()
+	//var b = true
+	//fmt.Println(b)
+	//var a string = "abc"
+	//fmt.Println("hello world", a)
+	//constVariable()
+	//FuncSet.SimpleOne()
+	//FuncSet.SimpleTwo()
+	//FuncSet.SimpleThree()
+	FuncSet.One()
 }
 
 func variableNothing() {
