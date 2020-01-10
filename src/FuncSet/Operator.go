@@ -29,3 +29,15 @@ func One() {
 	a--
 	fmt.Printf("a--:%d\n", a)
 }
+
+func Two() {
+	var a int
+	var b int
+	a = 5
+	b = 20
+	if a >= b {
+		fmt.Printf(" a 小于等于 b\n")
+	} else {
+		fmt.Printf("b 大于等于 a\n")
+	}
+}
